@@ -1,0 +1,29 @@
+{
+  "name": "baxture-assignment-backend",
+  "version": "1.0.0",
+  "description": "To implement simple CRUD API using in-memory database underneath",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "build": "npm i",
+    "prod": "npm run build & npm run dev"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mongodb",
+    "api"
+  ],
+  "author": "Suman",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "expressjs": "^1.0.1",
+    "mongoose": "^8.3.1",
+    "nodemon": "^3.1.0",
+    "uuid": "^9.0.1"
+  }
+}
