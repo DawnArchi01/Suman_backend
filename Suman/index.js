@@ -8,7 +8,7 @@ import { connectDB } from "./db/Connection_DB.js";
 import { errorMiddleware } from "./middlewares/error.middleware.js";
 import { notFoundMiddleware } from "./middlewares/notFound.middleware.js";
 
-const PORT = process.env.PORT || 3000;
+const PORT = 3000 ;
 
 // // middlewares
 
